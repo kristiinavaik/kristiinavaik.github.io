@@ -5,18 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- EDIT: Update the title and description if your role or research changes. -->
   <title>Kristiina Vaik | Researcher</title>
-  <meta name="description" content="Kristiina Vaik, Research Fellow in Digital Humanities at the University of Tartu. Research, selected publications, projects, teaching, and contact details.">
+  <meta name="description" content="Kristiina Vaik, Research Fellow in Digital Humanities at the University of Tartu. Research, publications, projects, teaching, supervision, education, career, and contact details.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
+  <div class="page-layout">
+    <aside class="portrait-column" aria-label="Portrait">
+      <!-- EDIT PHOTO: Replace the placeholder div below with an img after uploading
+           your photo beside index.html. Example (use your actual image dimensions):
+           <img class="portrait" src="portrait.jpg" alt="Kristiina Vaik" width="400" height="500">
+           Do not leave a broken image link before the photo file exists. -->
+      <div class="portrait-placeholder">
+        <p>Portrait to be added</p>
+      </div>
+    </aside>
+
+    <div class="page-content">
   <header class="site-header">
     <!-- EDIT: Your name, position, and affiliation. -->
     <h1>Kristiina Vaik</h1>
     <p class="position">Research Fellow in Digital Humanities</p>
     <p class="affiliation">Institute of Estonian and General Linguistics<br>University of Tartu, Estonia</p>
-    <!-- OPTIONAL PHOTO: No image is needed. See README.md before adding one. -->
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="#about">About</a></li>
@@ -24,6 +35,9 @@
         <li><a href="#publications">Publications</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#supervision">Supervision</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#career">Career</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -32,18 +46,17 @@
   <main id="main" tabindex="-1">
     <section id="about" aria-labelledby="about-heading">
       <h2 id="about-heading">About</h2>
-      <!-- EDIT: This short biography is based on your ETIS career and degree records. -->
+      <!-- EDIT: Update this biography when your position or research focus changes. -->
       <p>I am a researcher at the University of Tartu, working in digital humanities and computational linguistics.
         I am part of the <a href="https://digits.ut.ee/">Center for Digital Text Scholarship (DigiTS)</a>.</p>
       <p>I completed my PhD at the University of Tartu in 2024. My dissertation,
-        <a href="https://www.etis.ee/portal/mentorships/display/3f8d9065-6196-4c6d-84fd-ff8d8028ba91"><cite>Beyond Genres: A Dimensional Text Model for Text Classification</cite></a>,
+        <a href="https://dspace.ut.ee/items/e18a76f7-5905-49ac-b398-1e216df6323f"><cite>Beyond Genres: A Dimensional Text Model for Text Classification</cite></a>,
         was supervised by Kadri Muischnek and Kairit Sirts.</p>
-      <p>My full academic CV is available in the <a href="https://www.etis.ee/CV/Kristiina_Vaik/eng/">Estonian Research Information System (ETIS)</a>.</p>
     </section>
 
     <section id="research" aria-labelledby="research-heading">
       <h2 id="research-heading">Research</h2>
-      <!-- EDIT: These topics summarize the thesis, publications, and projects in ETIS;
+      <!-- EDIT: These topics summarize the thesis, publications, and projects;
            they are not a verbatim list of self-described research interests. -->
       <p>My research has addressed:</p>
       <ul>
@@ -55,77 +68,217 @@
     </section>
 
     <section id="publications" aria-labelledby="publications-heading">
-      <h2 id="publications-heading">Selected publications</h2>
-      <!-- EDIT: Each publication is one <li> ... </li> block. Copy a whole block
-           to add a paper. Verify authors, year, title, venue, and link first. -->
+      <h2 id="publications-heading">Publications</h2>
+      <!-- EDIT: Each paper is a complete <li> block. Keep the full author list,
+           year, title, venue, pages, and verified article link when adding an entry. -->
       <ul class="publications">
         <li>
-          Kanger, L., et al. (including Kristiina Vaik). 2023.
-          <a href="https://www.etis.ee/Portal/Publications/Display/e36b8f4e-9ece-471f-acdf-9bb65c3d8b82">Long-term country-level evidence of major but uneven ruptures in the landscape of industrial modernity</a>.
+          Kanger, Laur; Tinits, Peeter; Pahker, Anna-Kati; Orru, Kati; Velmet, Aro;
+          Sillak, Silver; Šeļa, Artjoms; Mertelsmann, Olaf; Tammiksaar, Erki;
+          Vaik, Kristiina; Penna, Caetano C. R.; Tiwari, Amaresh Kumar; Lauk, Kalmer. 2023.
+          <a href="https://doi.org/10.1016/j.eist.2023.100765">Long-term country-level evidence of major but uneven ruptures in the landscape of industrial modernity</a>.
           <cite>Environmental Innovation and Societal Transitions</cite>, 48.
         </li>
         <li>
-          Vaik, K., Sirts, K., and Muischnek, K. 2020.
-          <a href="https://www.etis.ee/Portal/Publications/Display/8cf02e3a-06b1-4c60-aae7-87e68c365307" lang="et">Dimensionaalne tekstimudel. Teoreetiline ülevaade.</a>
+          Kanger, Laur; Tinits, Peeter; Pahker, Anna-Kati; Orru, Kati; Tiwari, Amaresh Kumar;
+          Sillak, Silver; Šeļa, Artjoms; Vaik, Kristiina. 2022.
+          <a href="https://doi.org/10.1016/j.gloenvcha.2021.102447">Deep Transitions: Towards a comprehensive framework for mapping major continuities and ruptures in industrial modernity</a>.
+          <cite>Global Environmental Change</cite>, 72, 102447.
+        </li>
+        <li>
+          Ulčar, Matej; Vaik, Kristiina; Lindström, Jessica; Dailidėnaitė, Milda;
+          Robnik-Šikonja, Marko. 2020.
+          <a href="https://aclanthology.org/2020.lrec-1.501/">Multilingual Culture-Independent Word Analogy Datasets</a>.
+          <cite>Proceedings of the Twelfth Language Resources and Evaluation Conference</cite>,
+          4074–4080. European Language Resources Association.
+        </li>
+        <li>
+          Vaik, Kristiina; Sirts, Kairit; Muischnek, Kadri. 2020.
+          <a href="https://doi.org/10.54013/kk755a4" lang="et">Dimensionaalne tekstimudel. Teoreetiline ülevaade.</a>
           <cite lang="et">Keel ja Kirjandus</cite>, 10, 875–898.
         </li>
         <li>
-          Ulčar, M., Vaik, K., Lindström, J., Dailidėnaitė, M., and Robnik-Šikonja, M. 2020.
-          <a href="https://aclanthology.org/2020.lrec-1.501/">Multilingual Culture-Independent Word Analogy Datasets</a>.
-          <cite>Proceedings of the Twelfth Language Resources and Evaluation Conference</cite>, 4074–4080.
+          Vaik, Kristiina; Asula, Marit; Sirel, Raul. 2020.
+          <a href="https://doi.org/10.5281/zenodo.4306169">Hybrid Tagger – An Industry-driven Solution for Extreme Multi-label Text Classification</a>.
+          <cite>Proceedings of the LREC2020 Industry Track</cite>, 26–30.
+          European Language Resources Association.
         </li>
         <li>
-          Vaik, K., Muischnek, K. 2018.
-          <a href="https://www.etis.ee/Portal/Publications/Display/c79113e0-1078-4ae7-8f8e-88398208c113" lang="et">Eestikeelsete veebitekstide automaatne liigitamine</a>.
+          Armendariz, Carlos Santos; Purver, Matthew; Ulčar, Matej; Pollak, Senja;
+          Ljubešič, Nikola; Robnik-Šikonja, Marko; Granroth-Wilding, Mark; Vaik, Kristiina. 2020.
+          <a href="https://aclanthology.org/2020.lrec-1.720/">CoSimLex: A Resource for Evaluating Graded Word Similarity in Context</a>.
+          <cite>Proceedings of the Twelfth Language Resources and Evaluation Conference</cite>,
+          5878–5886. European Language Resources Association.
+        </li>
+        <li>
+          Vaik, Kristiina; Muischnek, Kadri. 2018.
+          <a href="https://doi.org/10.5128/ERYa14.13" lang="et">Eestikeelsete veebitekstide automaatne liigitamine</a>.
           <cite>Estonian Papers in Applied Linguistics</cite>, 14, 215–229.
         </li>
+        <li>
+          Vaik, Kristiina. 2018. Classifying Estonian Web Texts.
+          <cite>Proceedings of the ESSLLI 2018 Student Session</cite>, 42–54.
+          30th European Summer School in Logic, Language &amp; Information.
+          Sofia: Sofia University “St. Kl. Ohridski”.
+        </li>
+        <li>
+          Vaik, Kristiina; Vihman, Virve-Anneli. 2017.
+          <a href="https://doi.org/10.5128/ERYa13.13" lang="et">Eesti lastekeele korpuse morfoloogilise märgendamise kitsaskohtadest</a>
+          [Issues in morphological annotation of the Estonian child language corpus].
+          <cite>Estonian Papers in Applied Linguistics</cite>, 13, 205–221.
+        </li>
       </ul>
-      <p><a href="https://www.etis.ee/CV/Kristiina_Vaik/eng/">Full publication list in ETIS</a></p>
     </section>
 
     <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Selected projects</h2>
-      <!-- EDIT: Dates below are project dates, not personal employment dates.
-           No principal-investigator role is claimed. Link project titles to verified
-           official homepages when available, retaining a separate ETIS record link.
-           For projects without a verified homepage, keep the ETIS title link. -->
+      <h2 id="projects-heading">Projects</h2>
+      <p>Research projects I have contributed to. Dates refer to each project's duration,
+        not necessarily to my personal period of participation.</p>
+      <!-- EDIT: Add complete project entries here. Only link to verified official
+           project websites; leave the title as plain text when no website is known.
+           Named principal investigators are project leaders, not a claim about my role. -->
       <ul class="projects">
         <li>
           <a href="https://digits.ut.ee/">Center for Digital Text Scholarship (DigiTS)</a><br>
-          <span class="details">2025–2030 · University of Tartu ·
-            <a href="https://www.etis.ee/Portal/Projects/Display/5ba43309-7413-46a6-b7b1-ff0732a8cb3d">ETIS project record</a></span>
+          <span class="details">1 March 2025–28 February 2030 · 101186601</span><br>
+          University of Tartu. Principal investigator: Liina Lindström.
+          Funder: European Commission.
         </li>
         <li>
-          <a href="https://www.etis.ee/Portal/Projects/Display/05f643b4-431d-4e52-a727-d1ca7fb71cff">Estonian Universal Syntax: Resources and Applications</a><br>
-          <span class="details">2018–2022</span>
+          Human-system interaction in a digital environment – the effect of microcopy to user action<br>
+          <span class="details">1 January 2024–31 December 2027 · EKKD-TA3</span><br>
+          University of Tartu. Principal investigator: Maria Reile.
+          Funder: Ministry of Education and Research.
+        </li>
+        <li>
+          From gesture to speech: multimodal analysis of spoken Estonian<br>
+          <span class="details">1 January 2024–31 December 2027 · EKKD-TA6</span><br>
+          University of Tartu. Principal investigator: Pärtel Lippus.
+          Funder: Ministry of Education and Research.
+        </li>
+        <li>
+          The use of textual materials in digital humanities case studies on the example of Estonian newspaper collections (1850–2020)<br>
+          <span class="details">1 January 2021–31 December 2022 · EKKD72</span><br>
+          University of Tartu. Principal investigator: Peeter Tinits.
+          Funder: Ministry of Education and Research.
+        </li>
+        <li>
+          Estonian Universal Syntax: Resources and Applications<br>
+          <span class="details">1 January 2018–30 June 2022 · EKTB7</span><br>
+          University of Tartu. Principal investigator: Kadri Muischnek.
+          Funder: Ministry of Education and Research.
+        </li>
+        <li>
+          TEXTA Toolkit 2.0<br>
+          <span class="details">1 January 2018–31 December 2020 · EKTR3</span><br>
+          TEXTA. Principal investigator: Raul Sirel.
+          Funder: Ministry of Education and Research.
+        </li>
+        <li>
+          Centre of Excellence in Estonian Studies<br>
+          <span class="details">1 March 2016–1 March 2023 · TK145</span><br>
+          University of Tartu; parent project at the Estonian Literary Museum.
+          Principal investigator: Liina Lukas. Funder: Archimedes Foundation.
         </li>
       </ul>
-      <p>Further project details are listed in my <a href="https://www.etis.ee/CV/Kristiina_Vaik/eng/">ETIS profile</a>.</p>
     </section>
 
     <section id="teaching" aria-labelledby="teaching-heading">
       <h2 id="teaching-heading">Teaching</h2>
-      <p>Courses taught at the University of Tartu, as listed in my
-        <a href="https://www.etis.ee/CV/Kristiina_Vaik/eng/">ETIS profile</a>.</p>
-      <!-- EDIT: Dates, English course titles, codes, and credits come from ETIS.
+      <p>Courses taught at the University of Tartu.</p>
+      <!-- EDIT: Update the dates, course titles, codes, credits, and descriptions here.
            Preserve date ranges: they do not establish individual semester offerings.
            Add verified links to your teaching materials if you want them later.
            Copy a whole year heading and list to add another teaching period. -->
       <h3>2025</h3>
       <ul>
-        <li>Language Modelling for Syntax <span class="details">(HVEE.04.026, 6 ECTS)</span></li>
+        <li>Language Modelling for Syntax <span class="details">(HVEE.04.026, 6 ECTS)</span><br>Syntax models and parsers, annotation schemes, and syntactically annotated data for Estonian.</li>
       </ul>
       <h3>2023–2025</h3>
       <ul>
-        <li>Programming in Python with Textual Data <span class="details">(HVEE.04.028, 3 ECTS)</span></li>
+        <li>Programming in Python with Textual Data <span class="details">(HVEE.04.028, 3 ECTS)</span><br>Python programming with text data: data structures, regular expressions, corpus processing, basic web scraping, and encodings.</li>
       </ul>
       <h3>2022–2025</h3>
       <ul>
-        <li>Processing Estonian Language in Python <span class="details">(HVEE.04.004, 6 ECTS)</span></li>
+        <li>Processing Estonian Language in Python <span class="details">(HVEE.04.004, 6 ECTS)</span><br>Practical Estonian text processing with Python and EstNLTK.</li>
       </ul>
       <h3>2017–2020</h3>
       <ul>
-        <li>Basics of Computational Linguistics <span class="details">(FLEE.08.122, 6 ECTS)</span></li>
+        <li>Basics of Computational Linguistics <span class="details">(FLEE.08.122, 6 ECTS)</span><br>Methods and applications of computational linguistics, including automatic language analysis and synthesis.</li>
+      </ul>
+    </section>
+
+    <section id="supervision" aria-labelledby="supervision-heading">
+      <h2 id="supervision-heading">Supervision</h2>
+      <p>Doctoral and master's research at the University of Tartu.</p>
+      <!-- EDIT: Keep student names, degree levels, titles, and co-supervisors together.
+           Move ongoing work to the completed list when the degree is defended. -->
+      <h3>Ongoing doctoral research</h3>
+      <ul class="supervision-list">
+        <li><strong>Sofia Kriuchkova.</strong>
+          <cite>Gender Differences in Spoken Estonian: A Study of Politeness Markers</cite>.<br>
+          Doctoral dissertation. Co-supervised with Liina Lindström.</li>
+      </ul>
+      <h3>Completed master's theses</h3>
+      <ul class="supervision-list">
+        <li><strong>Anu Kadri Uustalu. 2026.</strong>
+          <cite>Linguistic and Visual Tools Used for Asking and Giving Consent in Cookie Notices on Estonian Public and Private Sector Websites</cite>.<br>
+          Co-supervised with Maria Reile.</li>
+        <li><strong>Sofia Kriuchkova. 2025.</strong>
+          <cite>Differences in the Spoken Language Use of Estonian-Speaking Men and Women</cite>.<br>
+          Co-supervised with Liina Lindström.</li>
+        <li><strong>Karl Gustav Gailit. 2023.</strong>
+          <cite>Lexicons and Feature Weights as an Addition to Improve the Evaluation of the Dimensions of Formality and Spontaneity of Online Texts</cite>.<br>
+          Co-supervised with Kadri Muischnek.</li>
+      </ul>
+    </section>
+
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <!-- EDIT: Degree information and thesis details are included in the relevant study period. -->
+      <ul class="education-list">
+        <li><strong>4 September 2017–30 December 2024.</strong> Doctoral studies, University of Tartu.
+          PhD awarded in 2024.<br>
+          Thesis: <a href="https://dspace.ut.ee/items/e18a76f7-5905-49ac-b398-1e216df6323f"><cite>Beyond Genres: A Dimensional Text Model for Text Classification</cite></a>.<br>
+          Supervisors: Kadri Muischnek and Kairit Sirts.</li>
+        <li><strong>2014–2016.</strong> Master's studies in Computational Linguistics, University of Tartu.
+          MA awarded in 2016.<br>
+          Thesis: <cite lang="et">Eesti lapsekeele korpuse morfoloogilisest märgendamisest</cite>
+          (Morphological annotation of the Estonian child language corpus).<br>
+          Supervisors: Virve-Anneli Vihman and Heiki-Jaan Kaalep.</li>
+        <li><strong>2010–2014.</strong> Bachelor's studies in Estonian and Finno-Ugric Linguistics, University of Tartu.</li>
+        <li><strong>2012–26 January 2013.</strong> Erasmus programme, University of Szeged.</li>
+        <li><strong>2007–2010.</strong> Pärnu Sütevaka High School of Humanities.</li>
+      </ul>
+    </section>
+
+    <section id="career" aria-labelledby="career-heading">
+      <h2 id="career-heading">Career</h2>
+      <!-- EDIT: Dates describe appointment periods, including the current contract's end date.
+           The two source records for the 2016–2017 programmer post describe the same post
+           and are represented by one entry with the more precise start date. -->
+      <p>University of Tartu appointments from 2021 onward are at the Institute of
+        Estonian and General Linguistics, Faculty of Arts and Humanities.</p>
+      <ul class="career-list">
+        <li><strong>1 October 2025–28 February 2030.</strong>
+          Research Fellow in Digital Humanities, University of Tartu. Full-time.</li>
+        <li><strong>1 March–30 September 2025.</strong>
+          Research Fellow in Computational Linguistics, University of Tartu. Full-time.</li>
+        <li><strong>1–28 February 2025.</strong>
+          Junior Research Fellow in Estonian and Finno-Ugric Linguistics, University of Tartu. Full-time.</li>
+        <li><strong>1 September 2022–31 January 2025.</strong>
+          Junior Research Fellow in Estonian and Finno-Ugric Linguistics, University of Tartu. Full-time.</li>
+        <li><strong>1 July–31 August 2022.</strong>
+          Junior Research Fellow in Estonian and Finno-Ugric Linguistics, University of Tartu. 70% appointment.</li>
+        <li><strong>1 March–30 June 2022.</strong>
+          Junior Research Fellow in Estonian and Finno-Ugric Linguistics, University of Tartu. Full-time.</li>
+        <li><strong>1 September 2021–28 February 2022.</strong>
+          Junior Research Fellow in Estonian and Finno-Ugric Linguistics, University of Tartu. 70% appointment.</li>
+        <li><strong>1 January 2018–12 June 2020.</strong>
+          Data analyst, TEXTA. 50% appointment.</li>
+        <li><strong>1 September 2016–31 December 2017.</strong>
+          Programmer, Institute of Computer Science, Faculty of Science and Technology,
+          University of Tartu. Full-time.</li>
       </ul>
     </section>
 
@@ -143,5 +296,7 @@
     <!-- EDIT: Change both the machine-readable date and the visible date when updating. -->
     <p>Last updated: <time datetime="2026-08-27">27 August 2026</time>.</p>
   </footer>
+    </div>
+  </div>
 </body>
 </html>
