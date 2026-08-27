@@ -1,0 +1,5 @@
+homepage:
+  show_experience: false
+  show_news: false
+  show_selected_publications: false
+footer_text: 'Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/luost26/academic-homepage">academic-homepage</a>.'

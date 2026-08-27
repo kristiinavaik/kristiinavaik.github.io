@@ -1,0 +1,26 @@
+# Installed from luost26/academic-homepage; see THEME.md for provenance.
+title: "Kristiina Vaik | Researcher"
+description: "Language, text & digital humanities. Research and teaching at the University of Tartu."
+url: ""
+baseurl: ""
+timezone: Europe/Tallinn
+markdown: kramdown
+plugins:
+  - jekyll-email-protect
+collections:
+  - publications
+  - news
+  - showcase
+  - posts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+  - dist
+  - README.md
+  - THEME.md
+  - LICENSE
+  - styles.css
+  - .openai
+  - .bundle

@@ -1,0 +1,19 @@
+pages:
+  - name: About
+    url: "/#about"
+  - name: Research
+    url: "/#research"
+  - name: Publications
+    url: "/#publications"
+  - name: Projects
+    url: "/#projects"
+  - name: Teaching
+    url: "/#teaching"
+  - name: Supervision
+    url: "/#supervision"
+  - name: Education
+    url: "/#education"
+  - name: Career
+    url: "/#career"
+  - name: Contact
+    url: "/#contact"

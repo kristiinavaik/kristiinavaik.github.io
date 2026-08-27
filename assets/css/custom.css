@@ -1,0 +1,45 @@
+/* Small personal overrides on top of the installed academic-homepage theme. */
+html { scroll-padding-top: 6rem; }
+body { overflow-wrap: anywhere; }
+.navbar-brand { white-space: nowrap; }
+.navbar-nav { font-size: 0.875rem; }
+.profile-sidebar .figure-img { border-radius: 0.5rem; }
+.portrait-credit { font-size: 0.68rem; line-height: 1.5; text-align: center; }
+.portrait-credit a { color: inherit; }
+.profile-sidebar address { font-style: normal; line-height: 1.7; }
+.profile-sidebar .email-text { font-size: 0.8rem; }
+.corner-image { display: block; width: 13rem; max-width: 100%; }
+.corner-image img { display: block; width: 100%; height: auto; }
+.meme-caption { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.5; text-align: center; }
+.academic-sections { line-height: 1.7; }
+.academic-sections h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+.academic-sections h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+.academic-sections section:last-child { margin-bottom: 0 !important; }
+.academic-sections .details { color: #59636c; font-size: 0.9rem; }
+.academic-sections .publications, .academic-sections .projects,
+.academic-sections .supervision-list, .academic-sections .education-list,
+.academic-sections .career-list { list-style: none; padding: 0; margin: 0; }
+.academic-sections li { margin-bottom: 0.5rem; }
+.academic-sections .publications li, .academic-sections .projects li,
+.academic-sections .supervision-list li, .academic-sections .education-list li,
+.academic-sections .career-list li { margin-bottom: 1.4rem; }
+.academic-sections li:last-child { margin-bottom: 0; }
+a:focus-visible, button:focus-visible { outline: 2px solid #0056b3; outline-offset: 3px; }
+.skip-link { position: fixed; top: 0.5rem; left: 1rem; z-index: 1100; padding: 0.5rem 0.75rem; background: white; transform: translateY(-200%); }
+.skip-link:focus { transform: none; }
+@media (max-width: 991px) {
+  .corner-image { width: 10rem; }
+  #about .px-3, #about .p-3 { padding-left: 0 !important; padding-right: 0 !important; }
+}
+@media (max-width: 575px) {
+  .corner-image { width: 7rem; }
+  #about h2 { font-size: 1.25rem; }
+  #about .col-auto { padding-left: 0; }
+}
+@media print {
+  body { padding-top: 0; }
+  .navbar, .skip-link, .corner-image, .portrait-credit { display: none !important; }
+  .card { box-shadow: none !important; }
+  h2, h3 { break-after: avoid; }
+  li { break-inside: avoid; }
+}

@@ -1,0 +1,20 @@
+primary_name: "Kristiina Vaik"
+secondary_name: ""
+navbar_name: "Kristiina Vaik"
+positions:
+  - name: Research Fellow in Digital Humanities
+  - name: University of Tartu
+email: "kristiina.vaik@ut.ee"
+portrait_url: /images/space-cat.png
+portrait_alt: "A wide-eyed cat against a colorful space background with planets and stars"
+address: |
+  Institute of Estonian and General Linguistics<br>
+  Jakobi 2, 4th floor<br>
+  51005 Tartu, Estonia
+short_bio_text_justify: false
+short_bio: |
+  <p>I am a researcher at the University of Tartu, working in digital humanities and computational linguistics.
+  I am part of the <a href="https://digits.ut.ee/">Center for Digital Text Scholarship (DigiTS)</a>.</p>
+  <p>I completed my PhD at the University of Tartu in 2024. My dissertation,
+  <a href="https://dspace.ut.ee/items/e18a76f7-5905-49ac-b398-1e216df6323f"><cite>Beyond Genres: A Dimensional Text Model for Text Classification</cite></a>,
+  was supervised by Kadri Muischnek and Kairit Sirts.</p>
