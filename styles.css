@@ -1,0 +1,102 @@
+/* EDIT: The three colours below control the whole site. Keep text dark for readability. */
+:root {
+  --text: #292929;
+  --muted: #595959;
+  --link: #245b78;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  scroll-padding-top: 1rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 2rem;
+  color: var(--text);
+  background: #fff;
+  /* System fonts: no downloads, tracking, or external dependencies. */
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, nav, .position, .affiliation, footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.125rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h2 {
+  margin: 0 0 0.85rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+p { margin: 0 0 1rem; }
+h3 { margin: 1.4rem 0 0.5rem; font-size: 1rem; line-height: 1.4; font-weight: 600; }
+.position { margin-bottom: 0.25rem; }
+.affiliation { color: var(--muted); font-size: 0.95rem; }
+.site-header { margin-bottom: 2.5rem; }
+
+nav { margin-top: 1.5rem; font-size: 0.9375rem; }
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav a { display: inline-block; padding: 0.4rem 0; }
+nav li { margin: 0; }
+
+a { color: var(--link); text-underline-offset: 0.16em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+
+section { margin-bottom: 2.5rem; }
+ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+li { margin-bottom: 0.35rem; }
+.publications li, .projects li { margin-bottom: 1rem; }
+.details, footer { color: var(--muted); font-size: 0.9375rem; }
+footer { margin-top: 3rem; }
+
+/* The skip link appears when a keyboard user presses Tab. */
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  padding: 0.5rem 0.75rem;
+  background: white;
+  transform: translateY(-200%);
+}
+.skip-link:focus { transform: none; }
+
+/* OPTIONAL PHOTO: unused unless you add a portrait as described in README.md. */
+.portrait { display: block; width: 8rem; height: auto; margin: 1rem 0; }
+
+@media (max-width: 35rem) {
+  body { padding: 2rem 1.15rem 1.5rem; }
+  h1 { font-size: 1.8rem; }
+  nav ul { column-gap: 1.1rem; }
+}
+
+@media print {
+  body { max-width: none; padding: 0; color: #000; font-size: 11pt; }
+  nav, .skip-link { display: none; }
+  a { color: inherit; }
+  h2, h3 { break-after: avoid; }
+  li { break-inside: avoid; }
+}
